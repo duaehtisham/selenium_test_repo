@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        APP_REPO = 'https://github.com/maryamtahirexe/assignmentpart2.git'
-        TEST_REPO = 'https://github.com/maryamtahirexe/property-automation-tests.git'
+        APP_REPO = 'https://github.com/duaehtisham/devops2-part2.git'
+        TEST_REPO = 'https://github.com/duaehtisham/selenium_test_repo.git'
         APP_IMAGE = 'property-app-image'
         TEST_IMAGE = 'property-test-image'
         APP_CONTAINER_NAME = 'property-app-container'
